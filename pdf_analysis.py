@@ -49,6 +49,7 @@ def main():
     with container:
         col1, col2, col3 = st.columns([1, 2, 1])
         with col2:
+            st.write("Build By Upcoming IAS Officer, he's name is The Greatest Captalist Sai Teja Reddy, District Magistrate IAS")
             st.title("PDF Q&A System")
             
             # File uploader with reduced size

@@ -33,7 +33,7 @@ def get_llm_response(context: str, query: str) -> str:
                     "content": prompt
                 }
             ],
-            model="mixtral-8x7b-32768",
+            model="qwen-2.5-32b",
             temperature=0.1,
             max_tokens=1024,
         )

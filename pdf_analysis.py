@@ -33,9 +33,9 @@ def get_llm_response(context: str, query: str) -> str:
                     "content": prompt
                 }
             ],
-            model="qwen-2.5-32b",
+            model="deepseek-r1-distill-qwen-32b",
             temperature=0.1,
-            max_tokens=1024,
+            max_tokens=16380,
         )
         
         return chat_completion.choices[0].message.content

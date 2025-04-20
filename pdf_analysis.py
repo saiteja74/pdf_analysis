@@ -33,7 +33,7 @@ def get_llm_response(context: str, query: str) -> str:
                     "content": prompt
                 }
             ],
-            model="llama3-70b-8192",
+            model="llama-3.1-8b-instant",
             temperature=0.1,
             max_tokens=16380,
         )

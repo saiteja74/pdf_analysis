@@ -33,7 +33,7 @@ def get_llm_response(context: str, query: str) -> str:
                     "content": prompt
                 }
             ],
-            model="deepseek-r1-distill-qwen-32b",
+            model="llama3-70b-8192",
             temperature=0.1,
             max_tokens=16380,
         )
